@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\style.css">
+    <title>Ficha D&D</title>
+</head>
+<body>
+    <div class = "atributos", >
+        <div class="atributos_Força">
+            <h1>Força</h1>
+            <form>
+                <samp class="Atributo" id="Atributo_F"></samp>
+                <input type="text" placeholder="10" id="FA" onkeyup="cacularatributoFA()">
+            </form>
+            
+        </div>
+        <div class="atributos_Destreza">
+            <h1>Destreza</h1>
+            <form>
+                <samp class="Atributo" id="Atributo_D"></samp>
+                <input type="number" placeholder="10" id="DA" onkeyup="cacularatributoDA()">
+            </form>
+            
+        </div>
+        <div class="atributos_Constituição">
+            <h1>Constituição</h1>
+            <form>
+                <samp class="Atributo" id="Atributo_Co"></samp>
+                <input type="number" placeholder="10" id="COA" onkeyup="cacularatributoCOA()">
+            </form>
+        </div>
+        <div class="atributos_Inteligencia">
+            <h1>Inteligencia</h1>
+            <form>
+                <samp class="Atributo" id="Atributo_I"></samp>
+                <input type="number" placeholder="10" id="IA" onkeyup="cacularatributoIA()">
+            </form>
+        </div>
+        <div class="atributos_Sabadoria">
+            <h1>Sabadoria</h1>
+            <form>
+                <samp class="Atributo" id="Atributo_S"></samp>
+                <input type="number" placeholder="10" id="SA" onkeyup="cacularatributoSA()">
+            </form>
+        </div>
+        <div class="atributos_Carisma">
+            <h1>Carisma</h1>
+            <form>
+                <samp class="Atributo" id="Atributo_C"></samp>
+                <input type="number" placeholder="10" id="CA" onkeyup="cacularatributoCA()">
+            </form>
+        </div>
+        
+    </div>
+    <script src="JS\Atributos.js"></script>
+</body>
+</html>

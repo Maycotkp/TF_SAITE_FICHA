@@ -1,0 +1,75 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(172, 69, 29, 0.452);
+    padding: 90px 1000;
+}
+
+.Atributo{
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    height: 75px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font: normal 4rem serif;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#FA{
+    width: 15%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#FA{
+    width: 3%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#DA{
+    width: 3%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#COA{
+    width: 3%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#IA{
+    width: 3%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#SA{
+    width: 3%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#CA{
+    width: 3%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
